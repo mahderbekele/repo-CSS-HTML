@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+body {
+    margin: 50px;
+    margin-left: 400px;
+    margin-top: 100px;
+    background-color: rgb(253, 229, 253);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(168, 34, 168);
+    text-align: center;
+    padding-right: 15%;
+
+
+}
+
+img {
+    text-align: center;
+}
+
+form {
+    font-family: Poppins;
+    
+}
+
+form input {
+    width: 69%;
+    height: 35px;
+    border-radius: 6px;
+    border: solid 1px rgb(192, 185, 185);
+}
+
+.main-container {
+    width: 40%;
+    float: left;
+
+
+}
+
+.inner-main-container {
+    width: 50%;
+    overflow: auto;
+    border-left: solid 2px rgb(241, 184, 241);
+    padding-left: 50px
+}
+
+.index-form {
+    margin-top: 100px;
+}
+
+
+.or-lines {
+    position: relative;
+    margin: 50px auto;
+    text-indent: 250px;
+}
+
+.or-lines:before {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 230px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: black;
+}
+
+.or-lines:after {
+    content: " ";
+    display: block;
+    height: 1px;
+    width: 230px;
+    position: absolute;
+    top: 50%;
+    left: 280px;
+    right: 8%;
+    background: black;
+}
+
+h3 {
+    font-size: small;
+}
+
+.fullname {
+    display: flex;
+    gap: 6%;
+    margin-bottom: 15px;
+}
+
+#create_account {
+    padding: 14px 12px;
+    width: 70%;
+    background: none;
+    border: none;
+    background-color: rgb(163, 20, 163);
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: poppins;
+    border-radius: 7px;
+}
+
+#p2 {
+    text-indent: 150px;
+}
+
+#firstname {
+    width: 230px
+}
+
+#lastname {
+    width: 230px
+}
+
+#svg {
+    x: 10px;
+    y: 0px;
+    width: 30;
+    height: 48;
+    viewBox: 0 0 48 48;
+
+    margin-left: 50px;
+    padding: 0px 0px;
+    padding: 1px 30px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+
+
+}
+
+#facebook {
+    margin-left: 50px;
+    color: blue;
+    font-size: 30px;
+    padding: 10px 35px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+
+}
+
+#apple {
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 10px 35px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: black;
+
+}
+
+.icons {
+    display: flex;
+    gap: 4%
+}
+
+a {
+    text-decoration: none;
+    color: rgb(161, 15, 161);
+}
+#passw{
+    top:10px;
+    right:240px;
+    position: absolute;
+    cursor:pointer;
+}
+#cpassw{
+    top:10px;
+    right:240px;
+    position: absolute;
+    cursor:pointer;
+}
+.eye{
+    position:relative;
+}
+#eye{
+    position: relative;
+}
